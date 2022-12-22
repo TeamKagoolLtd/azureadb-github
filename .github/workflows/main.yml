@@ -13,3 +13,9 @@ jobs:
       uses: ihiroky/extract-action@v1
       with:
         file_path: './source/velocity_modules.zip'
+    
+    - name: Upload artifact for deployment job
+      uses: actions/upload-artifact@v2
+      with:
+        name: databricks zip file
+        path: velocity_modules.zip
