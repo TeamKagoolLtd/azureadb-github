@@ -12,7 +12,8 @@ jobs:
     - name: Extract Action
       uses: ihiroky/extract-action@v1
       with:
-        file_path: './source/velocity_modules.zip'
+        file_path: /source/velocity_modules.zip'
+        extract_dir: './source'
     
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3.1.1
