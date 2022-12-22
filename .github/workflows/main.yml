@@ -19,6 +19,3 @@ jobs:
       with:
         name: databricks zip file
         path: './source/velocity_modules.zip'
-        
-    - run: 'scripts/databricks.cicd.tools.ps1'
-      shell: pwsh
