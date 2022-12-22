@@ -15,7 +15,7 @@ jobs:
         file_path: './source/velocity_modules.zip'
     
     - name: Upload artifact for deployment job
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3.1.1
       with:
         name: databricks zip file
         path: './source/velocity_modules.zip'
