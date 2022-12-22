@@ -13,4 +13,3 @@ jobs:
       uses: ihiroky/extract-action@v1
       with:
         file_path: './source/velocity_modules.zip'
-        extract_dir: . 
